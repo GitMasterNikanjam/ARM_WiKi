@@ -1,0 +1,26 @@
+--cpu=Cortex-M4.fp.sp
+"exp_uart_1\startup_stm32f407xx.o"
+"exp_uart_1\main.o"
+"exp_uart_1\stm32f4xx_it.o"
+"exp_uart_1\stm32f4xx_hal_msp.o"
+"exp_uart_1\stm32f4xx_hal_tim.o"
+"exp_uart_1\stm32f4xx_hal_tim_ex.o"
+"exp_uart_1\stm32f4xx_hal_uart.o"
+"exp_uart_1\stm32f4xx_hal_rcc.o"
+"exp_uart_1\stm32f4xx_hal_rcc_ex.o"
+"exp_uart_1\stm32f4xx_hal_flash.o"
+"exp_uart_1\stm32f4xx_hal_flash_ex.o"
+"exp_uart_1\stm32f4xx_hal_flash_ramfunc.o"
+"exp_uart_1\stm32f4xx_hal_gpio.o"
+"exp_uart_1\stm32f4xx_hal_dma_ex.o"
+"exp_uart_1\stm32f4xx_hal_dma.o"
+"exp_uart_1\stm32f4xx_hal_pwr.o"
+"exp_uart_1\stm32f4xx_hal_pwr_ex.o"
+"exp_uart_1\stm32f4xx_hal_cortex.o"
+"exp_uart_1\stm32f4xx_hal.o"
+"exp_uart_1\stm32f4xx_hal_exti.o"
+"exp_uart_1\system_stm32f4xx.o"
+--strict --scatter "exp_uart_1\exp_uart_1.sct"
+--summary_stderr --info summarysizes --map --load_addr_map_info --xref --callgraph --symbols
+--info sizes --info totals --info unused --info veneers
+--list "exp_uart_1.map" -o exp_uart_1\exp_uart_1.axf
