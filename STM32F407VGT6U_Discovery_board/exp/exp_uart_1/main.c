@@ -111,11 +111,7 @@ int main(void)
   while (1)
   {
 		
-		if(rxd_counter>0)
-		{
-		HAL_UART_Transmit(&huart2, rxd_buffer, rxd_counter, 10);
-		rxd_counter = 0;
-		}
+		HAL_UART_Transmit(&huart2, (const uint8_t *)"hello world\n", 12, 10);
 		
 		HAL_Delay(1000);
     /* USER CODE END WHILE */
