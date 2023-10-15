@@ -9,6 +9,6 @@
 
 # Ignore the build directory and its contents
 documents/
-.*/doc
-.*/picture
+*/doc
+*/picture
 
