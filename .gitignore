@@ -9,4 +9,6 @@
 
 # Ignore the build directory and its contents
 documents/
-pcb/
+.*/doc
+.*/picture
+
