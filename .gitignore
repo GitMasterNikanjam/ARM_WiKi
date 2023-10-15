@@ -5,6 +5,8 @@
 # Ignore log files
 # *.log
 
+*.pdf
+
 # Ignore the build directory and its contents
 documents/
 pcb/
