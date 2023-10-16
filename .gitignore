@@ -5,13 +5,10 @@
 # Ignore log files
 # *.log
 
-*.pdf
+# *.pdf
 
 # Ignore the build directory and its contents
 documents/
-STM32F103C8T6_Bluepill_board/doc
-STM32F103C8T6_Bluepill_board/picture
-STM32F407VGT6U_Discovery_board/doc
-STM32F407VGT6U_Discovery_board/picture
+
 
 
